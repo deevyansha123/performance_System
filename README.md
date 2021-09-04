@@ -1,6 +1,6 @@
-# performance_System
+# Performance_System
 
-Performance System :
+Performance System Introduction:
 A System which is used by company for handling the rating and feedback of the employee. 
 
 Programming Language Used:
