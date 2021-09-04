@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>login Page</title>
+        
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://previews.123rf.com/images/jirsak/jirsak1601/jirsak160100071/51751193-human-resources-crm-data-mining-and-social-media-concept-officer-looking-for-employee-represented-by.jpg");
+
+  /* Control the height of the image */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  height:50%;
+  margin: 150px;
+  max-width: 22%;
+  padding: 25px;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+label{
+    color:white;
+}
+h1{
+    color:white;
+}
+        </style>
+       
+    </head>
+
+    <body>
+        <div class="bg-img">
+  <form action="login.jsp" class="container" method="post">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" minlength="8" id="password" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+<!--        <div class="row">
+         <div class="col-lg-6 offset-3">
+                 <div id="styling">
+        <form name="login" method="post" action="login.jsp">
+        
+        <div>
+            <h1 style="text-align:center;margin-top: 100px;" class="text-primary shadow-lg p-3 mb-5 bg-body rounded">LOGIN PAGE</h1>
+            <div class="form-floating mb-3">
+               <label for="floatingInput">Email address</label>
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+            </div>
+            <div class="form-floating">
+              <label for="floatingPassword">Password</label>
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+            </div>
+
+            <div class="form-floating mt-4">
+                    <button type="submit" class="btn btn-success btn-block">login</button>
+            </div>
+        </form>
+        
+        </div>
+    </div>
+
+
+         </div>
+        </div>-->
+        
+            
+    </body>
+</html>
